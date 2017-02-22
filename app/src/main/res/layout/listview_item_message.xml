@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="80dp">
+    android:layout_height="50dp">
 
     <TextView
         android:id="@+id/message_user_name"
@@ -16,6 +16,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/message_user_name"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
         android:text="message body"/>
 
 </RelativeLayout>
